@@ -39,7 +39,9 @@ public class OuGuanLed implements LedDrive {
     public byte[] packLocalDate(int line, int timeLen) {
         if(timeLen == 0){
             //时间永久显示   注意：欧冠显示屏这里有个bug，设置永久显示时间，开始只会显示[d000],需要再发个指令显示下即时时间，所以这里发了2条指令,也可以通过重启led
-            return ByteUtil.addBytes(packBasicTextCommad(1, line, getLocalTimeControlTime(timeLen)), packBasicTextCommad(0, line, getLocalTimeControlTime(timeLen)));
+            return ByteUtil.addBytes(packBasicTextCommad(
+                    1, line, getLocalTimeControlTime(timeLen)),
+                    packBasicTextCommad(0, line, getLocalTimeControlTime(timeLen)));
         }else {
             return packBasicTextCommad(0, line, getLocalTimeControlTime(timeLen));
         }

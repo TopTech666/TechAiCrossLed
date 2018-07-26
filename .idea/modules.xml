@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/TechAiCrossLed.iml" filepath="$PROJECT_DIR$/.idea/TechAiCrossLed.iml" />
       <module fileurl="file://$PROJECT_DIR$/TechAiCrossLed.iml" filepath="$PROJECT_DIR$/TechAiCrossLed.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/led_lib/led_lib.iml" filepath="$PROJECT_DIR$/led_lib/led_lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/led_lib/led_lib.iml" filepath="$PROJECT_DIR$/led_lib/led_lib.iml" />
     </modules>
   </component>
